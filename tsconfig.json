@@ -12,7 +12,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "useDefineForClassFields": true,
+    // "useDefineForClassFields": true,
     "newLine": "LF"
   },
   "include": ["source/**/*.ts"],
