@@ -1,0 +1,25 @@
+{
+  "name": "@agrozyme/base-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "output/index.js",
+  "scripts": {
+    "install": "npm run clean && tsc --build --force",
+    "clean": "shx rm -f tsconfig.tsbuildinfo && shx rm -rf output",
+    "test": "jasmine --config=jasmine.json"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.5.0",
+    "@types/node": "^12.12.14",
+    "jasmine": "^3.5.0",
+    "shx": "^0.3.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

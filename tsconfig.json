@@ -1,0 +1,20 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "composite": true,
+    "outDir": "output",
+    "rootDir": "source",
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useDefineForClassFields": true,
+    "newLine": "LF"
+  },
+  "include": ["source/**/*.ts"],
+  "exclude": ["node_modules", "test", "output"]
+}
