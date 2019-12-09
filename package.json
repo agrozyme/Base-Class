@@ -1,6 +1,6 @@
 {
   "name": "@agrozyme/base-class",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "output/index.js",
   "scripts": {
@@ -8,10 +8,7 @@
     "clean": "shx rm -f tsconfig.tsbuildinfo && shx rm -rf output",
     "test": "jasmine --config=jasmine.json"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.com:agrozyme-package/JavaScript/base-class.git"
-  },
+  "repository": "git@gitlab.com:agrozyme-package/JavaScript/base-class.git",
   "devDependencies": {
     "@types/jasmine": "^3.5.0",
     "@types/node": "^12.12.14",
