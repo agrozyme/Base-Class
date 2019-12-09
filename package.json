@@ -1,6 +1,6 @@
 {
   "name": "@agrozyme/base-class",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "output/index.js",
   "scripts": {
